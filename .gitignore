@@ -1,0 +1,12 @@
+# These are some commonly ignored file patterns.
+
+# Node artifact files
+node_modules/
+dist/
+.env
+.eslintcache
+package-lock.json
+
+# Log files
+*.log
+logs/

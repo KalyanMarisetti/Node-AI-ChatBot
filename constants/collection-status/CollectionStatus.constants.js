@@ -1,0 +1,11 @@
+const COLLECTION_STATUS = {
+    ACTIVE: 'ACTIVE',
+    INACTIVE: 'INACTIVE',
+    DELETED: 'DELETED'
+};
+
+const ACCOUNT_TYPE = {
+    USER: 'USER',
+};
+
+module.exports = { COLLECTION_STATUS, ACCOUNT_TYPE };
