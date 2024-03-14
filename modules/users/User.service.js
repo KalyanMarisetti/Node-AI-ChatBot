@@ -40,10 +40,10 @@ class UserService extends Base {
             }
             let userData = new UserModel(userPayload);
             let saveUser = await userData.save();
-            console.log('saveUser----', saveUser);
             let tokenDetails = {
                 name: saveUser.name,
                 email: saveUser.email,
+                _id: saveUser._id,
             }
             let authToken = await this.jwt(tokenDetails);
             return {
